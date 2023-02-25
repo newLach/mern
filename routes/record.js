@@ -42,6 +42,8 @@ recordRoutes.route("/record/add").post((req, response) => {
 	let db_connect = dbo.getDb();
 	let myobj = {
 		blogText: req.body.blogText,
+		creationDate: req.body.creationDate,
+		project: req.body.project,
 	};
 	db_connect.collection("blogs").insertOne(myobj, (err, res)=> {
 		if (err) throw err;

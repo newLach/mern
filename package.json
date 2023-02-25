@@ -16,5 +16,13 @@
     "mongodb": "^3.7.3",
     "mongoose": "^5.12.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newLach/timerServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newLach/timerServer/issues"
+  },
+  "homepage": "https://github.com/newLach/timerServer#readme",
   "description": ""
 }
